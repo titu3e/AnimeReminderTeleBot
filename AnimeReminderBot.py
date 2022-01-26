@@ -6,8 +6,8 @@ from webcrawler import *
 from database import *
 from datetime import *
 
-TOKEN = "<TOKEN>"
-HEROKU_WEB_URL = "<HEROKU_WEB_URL>"
+TOKEN = "5143369084:AAEdiBgKTzfcsBzkOj73Ws_1n5oZU8z2qIk"
+HEROKU_WEB_URL = "https://animeremind.herokuapp.com/"
 bot = telebot.TeleBot(TOKEN, threaded=False)
 
 # logger = telebot.logger
